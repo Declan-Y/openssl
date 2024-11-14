@@ -14,8 +14,8 @@ name: Provider compatibility across versions
 #       request's branch.  It is hardcoded to use the master branch.
 #
 on: #[pull_request]
-  schedule:
-    - cron: '0 15 * * *'
+  
+    
 
 permissions:
   contents: read
