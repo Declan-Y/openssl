@@ -9,8 +9,6 @@ name: Static Analysis
 
 #Run once a day
 on:
-  schedule:
-    - cron:  '20 0 * * *'
 
 permissions:
   contents: read
