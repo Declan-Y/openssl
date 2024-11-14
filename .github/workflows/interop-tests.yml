@@ -5,8 +5,7 @@
 # to that directory
 name: Interoperability tests with GnuTLS and NSS
 on:
-  schedule:
-    - cron: '0 6 * * *'
+
 jobs:
   test:
     runs-on: ubuntu-22.04
